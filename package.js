@@ -1,12 +1,12 @@
 Package.describe({
     name: 'risul:mailgun',
     summary: 'Meteor package for Mailgun Node.js helper module mailgun-js',
-    version: '0.0.1',
+    version: '0.0.2',
     git: 'https://github.com/risul/meteor-mailgun-api'
 });
 
 Npm.depends({
-    'mailgun-js': '0.6.8'
+    'mailgun-js': '0.6.9'
 });
 
 Package.onUse(function(api) {
