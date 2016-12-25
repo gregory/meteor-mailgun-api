@@ -6,7 +6,7 @@ Package.describe({
 });
 
 Npm.depends({
-    'mailgun-js': '0.6.9'
+    'mailgun.js': '2.0.1'
 });
 
 Package.onUse(function(api) {
